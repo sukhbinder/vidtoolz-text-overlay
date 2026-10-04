@@ -1,0 +1,31 @@
+Text Overlay - Add text overlay on video using ffmpeg
+
+type ``vid otext --help`` to get help
+
+CLI Options:
+Add text overlay on video using ffmpeg
+
+Usage:
+  vid text-overlay [options] input_file
+
+Options:
+  input: input video file
+  output: output video file
+  --text: text string (repeat as needed)
+  --start: start time in seconds (repeat or use default)
+  --dur: duration in seconds (repeat or use default)
+  --x: x position: number, 'center', 'left', 'right'
+  --y: y position: number, 'center', 'top', 'bottom'
+
+
+Examples:
+  1. vid otext --help`` to get help
+
+
+Examples:
+  1. vid otext --help to get help
+
+
+Examples:
+  1. vid text-overlay input.mp4 --text 'Hello World' --position bottom
+  2. vid text-overlay input.mp4 --text 'Hello' --start-time 10 --duration 5
